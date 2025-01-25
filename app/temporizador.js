@@ -1,6 +1,6 @@
 const contagemRegressiva = () => {
     if (temporizador <= 0) {
-        // musica_end.play()
+        musica_end.play()
         alert('Tempo Finalizado')
         zerar()
         return
